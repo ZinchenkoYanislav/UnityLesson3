@@ -109,6 +109,7 @@ public class Scripts : MonoBehaviour
 
 
 
+
     [ContextMenu("task4")]
     public void task4()
     {
@@ -121,7 +122,6 @@ public class Scripts : MonoBehaviour
 
             int findNum = RomanNum.GetValueOrDefault(chars[i].ToString());
             sum += findNum;
-            RomanNum.ContainsValue(chars[i]);
         }
         Debug.Log(sum);
 
